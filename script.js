@@ -35,6 +35,163 @@
 // }
 // console.log(sumEvenNumbers());
 
+// задача 3: сумма чисел в диапазоне
+// function sumRange(start, end) {
+//     let sum = 0;
+//     for (let index = start; index <= end; index++){
+//         sum = sum + index;
+//     }
+//     return sum;
+// }
+// console.log(sumRange(1, 5));
+
+// задача 4: сколько раз встречается цифра?
+// function countDigit(number, digit) {
+//     let str = number.toString();
+//     let sum = 0;
+
+//     for (let index = 0; index < str.length; index++) {
+//         if (str[index] === String(digit)) {
+//             sum++;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(countDigit(322323, 3))
+
+// задача 5: возведение в степень
+// function power(base, exponent) {
+//     let resul = 1;
+//     if (exponent === 0) {
+//         return 1;
+//     }
+    
+//     for (let index = 0; index < exponent; index++) {
+//         resul = resul * base;
+//     }
+//     return resul;
+    
+// }
+// console.log(power(2, 2));
+
+// задача 6: найти длину массива имен
+// function getNamesCount() {
+//     const names = ['Дима', 'Борис', 'Настя', 'Виктория'];
+//     let arr = 0;
+
+//     for (let index = 0; index < names.length; index++) {
+//         arr++;
+//     }
+//     return arr;
+// }
+// console.log(getNamesCount())
+
+// задача 7: получить возраст пользователя их объекта
+// function getUserAge() {
+//     const user = {
+//         name: 'Дарья',
+//         age: 28,
+//         city: 'Москва'
+//     }
+//     return user.age;
+// }
+// console.log(getUserAge())
+
+// задача 8: проверить, есть ли элемент в массиве
+// function hasNumber(target) {
+//     const arr = [10, 20, 30, 40, 50];
+//     let storage = 0;
+
+//     for (let index = 0; index < arr.length; index++) {
+
+//         if (arr[index] === target) {
+//             return true;
+//         } else {
+//             return false;
+//         }
+//     }
+// }
+// console.log(hasNumber(60));
+
+// задача 9: получить полное имя из объекта
+// function getFullName() {
+//     const user = {
+//         firstName: 'Анна',
+//         lastName: 'Петрова'
+//     };
+
+//     return `${user.firstName} ${user.lastName}`;
+// }
+// console.log(getFullName())
+
+// задача 10: добавить новое свойство в объект
+// function addAge() {
+//     const person = {
+//         name: 'Борис'
+//     };
+//     person.age = 30;
+
+//     return person;
+// }
+// console.log(addAge())
+
+// задача 11: проверить наличие свойства в объекте
+// function hasProperty() {
+//     const car = {
+//         brand: 'Toyota',
+//         year: 2020
+//     }
+    
+//     return 'color' in car; // есть ли такое ключь В этом объекте
+// }
+// console.log(hasProperty())
+
+// задача 12: сумма четных чисел до N
+// function sumEvenUpTo(n) {
+//     let sum = 0;
+//     for (let index = 0; index <= n; index++) {
+//         if (index % 2 === 0) {
+//             sum = sum + index;
+//         }        
+//     }
+//     return sum;
+// }
+// console.log(sumEvenUpTo(6));
+
+// задача 13: количество цифр в числе
+// function countDigits(num) {
+//     if (num === 0) {
+//         return 1;
+//     }
+
+//     let count = 0;
+//     while (num > 0) {
+//         num = Math.floor(num / 10);
+//         count++;
+//     }
+//     return count;
+// }
+// console.log(countDigits(123))
+
+// задача 14: проверка на полидром числа
+// function isNumberPalindrome(num) {
+//     if (num < 0) {
+//         return false;
+//     }
+
+//     let original = num;
+//     let reversed = 0;
+
+//     while(num > 0) {
+//         let lastDigit = num % 10;
+//         reversed = reversed * 10 + lastDigit;
+//         num = Math.floor(num / 10);
+//     }
+//     return reversed === original;
+// }
+// console.log(isNumberPalindrome(121))
+
+
 
 
 
