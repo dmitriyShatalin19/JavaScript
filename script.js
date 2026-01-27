@@ -191,6 +191,46 @@
 // }
 // console.log(isNumberPalindrome(121))
 
+// задача 15: сумма значений всех числовых свойств объекта
+// function sumNumbericValues() {
+//     const data = {
+//         a: 10,
+//         b: 30,
+//         c: 3,
+//         v: true,
+//         o: 2
+//     }
+
+//     let sum = 0;
+
+//     for (const key in data) {
+//         let value = data[key]
+//         if (typeof value === 'number') {
+//             sum = sum + value;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(sumNumbericValues())
+
+// задача 16: найти самого взрослого прользователя
+// function getOldestUser() {
+//     const users = [
+//         {name: 'Алиса', age: 25},
+//         {name: 'Борис', age: 30},
+//         {name: 'Вера', age: 22}
+//     ]
+
+//     let oldest = users[0];
+//     for (let index = 0; index < users.length; index++) {
+//         if (users[index].age > oldest.age) {
+//             oldest = users[index];
+//         }
+//     }
+//     return oldest;
+// }
+// console.log(getOldestUser())
+
 
 
 
