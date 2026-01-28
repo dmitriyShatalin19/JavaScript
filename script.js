@@ -231,7 +231,42 @@
 // }
 // console.log(getOldestUser())
 
+// задача 17: сумма нечетных числе до N
+// function sumOddUpTo(n) {
+//     let counter = 0;
+//     for (let index = 0; index <= n; index++) {
+//         if (index % 2 !== 0) {
+//             counter = counter + index;
+//         }
+//     }
+//     return counter;
+// }
+// console.log(sumOddUpTo(5))
 
+// задача 18: Количество делителей числа
+// function countDiviors(num) {
+//     let counter = 0;
+//     for (let i = 0; i <= num; i++) {
+//         if (num % i === 0) {
+//             counter++;
+//         }
+//     }
+//     return counter;
+// }
+// console.log(countDiviors(6))
 
-
-
+// задача 19: вывод FizzBuzz до N
+// function fizzBuzz(n) {
+//     for (let i = 1; i <= n; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             console.log('FizzBuzz');
+//         } else if (i % 3 === 0) {
+//             console.log('Fizz');
+//         } else if (i % 5 === 0) {
+//             console.log('Buzz');
+//         } else {
+//             console.log(i)
+//         }
+//     }
+// }
+// fizzBuzz(15)
