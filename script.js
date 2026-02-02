@@ -270,3 +270,127 @@
 //     }
 // }
 // fizzBuzz(15)
+
+// задача 20: сумма всех чисел, кратных 3 или 5, до N
+// function sumMultiples(n) {
+//     let sum = 0;
+//     for (let i = 0; i < n; i++) {
+//         if (i % 3 === 0 || i % 5 === 0) {
+//             sum = sum + i;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(sumMultiples(10));
+
+// задача 21: возвращает площадь прямоугольника
+// function calculateArea(width, height) {
+//     return width * height;
+// }
+// console.log(calculateArea(4, 5))
+
+// задача 22: условия
+// function checkAge(age) {
+//     if (age >= 18) {
+//         return 'можно';
+//     } else {
+//         return 'нельзя';
+//     };
+// };
+// console.log(checkAge(14))
+
+// задача 23: написать функцию, которая принимает число n и возвращает сумму всех чисел от 1 до n включительно
+// function sumNumbers(n) {
+//     let sum = 0;
+//     for (let i = 0; i <= n; i++) {
+//         sum+=i;
+//     }
+
+//     return sum;
+// }
+// console.log(sumNumbers(5))
+
+// задача 24: объекты
+// function getInfo() {
+//     const person = {
+//     name: 'Дима',
+//     age: 20,
+//     city: 'Волгоград'
+//     }
+
+//     for (let key in person) {
+//         console.log(`${key} : ${person[key]}`)
+//     }
+// }
+// getInfo();
+
+// задача 25: напиши функцию, которая принимает массив чисел и возвращает макс. число из массива
+// function findMax(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         const element = arr[i];
+//         sum += element;
+//     }
+//     return sum;
+// }
+// console.log(findMax([4, 5, 6, 67]))
+
+// задача 26: напиши функцию, которая возвращает итоговую цену
+// function getDiscount(price, isVip) {
+//     let discount = 0;
+//     let summary = 0;
+//     if (price !== 0) {
+//         if (isVip === true) {
+//         discount = (price / 100) * 25;
+//         summary =  price - discount;
+//     } else {
+//         discount = (price / 100) * 10;
+//         summary =  price - discount;
+//     }
+//     }
+//     return summary;
+// }
+// console.log(getDiscount(1000, true));
+
+// задача 27: напиши функцию, которая возвращает новый массив, содержащий только четные числа из исходного
+// function filterEven(arr) {
+//     let arrayEven = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 === 0) {
+//             arrayEven.push(arr[i]);
+//         }
+//     }
+//     return arrayEven;
+// }
+// console.log(filterEven([3, 5, 2, 6, 7]));
+
+// задача 28: объекты + условия
+// function getUserStatus(user) {
+//     if (user.isActive === false) {
+//         return `Пользователь ${user.name} неактивен`;
+//     } else if (user.isActive === true && user.age < 18) {
+//         return `Пользователь ${user.name} - несовершенноетний`;
+//     } else if (user.isActive === true && user.age >= 18) {
+//         return `Пользователь ${user.name} активен`;
+//     }
+// }
+// console.log(getUserStatus({name: 'Аня', age: 18, isActive: true}))
+
+// задача 29: напиши функцию, которая возвращает массив имен пользователей старше или равных 18 лет.
+// function getAdultName() {
+//     const user = [
+//         {name: 'Даша', age: 28},
+//         {name: 'Макс', age: 35},
+//         {name: 'Катя', age: 17},
+//         {name: 'Артем', age: 18}
+//     ];
+
+//     let result = [];
+//     for (let i = 0; i < user.length; i++) {
+//         if (user[i].age >= 18) {
+//             result.push(user[i].name);
+//         }
+//     }
+//     return result;
+// }
+// console.log(getAdultName([]))
