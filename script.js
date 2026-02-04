@@ -394,3 +394,128 @@
 //     return result;
 // }
 // console.log(getAdultName([]))
+
+// задача 30: напишите функцию, которая принимает массив чисел и возвращает их среднее арифметическое.
+// function getAdultName(arr) {
+//     if (arr.length === 0) {
+//         return 0;
+//     }
+
+//     let sum = 0;
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//         count = sum / arr.length;
+//     }
+//     return count;
+// }
+// console.log(getAdultName([10, 20, 30]))
+
+// задача 31: условия + цикл
+// function fizzBuzz(n) {
+//     let result = [];
+//     for (let i = 1; i <= n; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             result.push('FizzBuzz');
+//         } else if (i % 3 === 0) {
+//             result.push('Buzz');
+//         } else if (i % 5 === 0) {
+//             result.push('Fizz');
+//         } else {
+//             result.push(i);
+//         }
+//     }
+//     return result;
+// }
+// console.log(fizzBuzz((15)));
+
+// задача 32: напишите функцию, которая принимает число и возвращает его, умноженное на 2.
+// function multiplyByTwo(num) {
+//     return num * 2;
+// }
+// console.log(multiplyByTwo(-3))
+
+// задача 33: условия
+// function checkTemperature(temp)  {
+//     if (temp >= 30) {
+//         return 'жарко';
+//     } else if (temp >= 15 && temp <= 29) {
+//         return 'тепло';
+//     } else if (temp < 15) {
+//         return 'холодно';
+//     };
+// };
+// console.log(checkTemperature(0));
+
+// задача 34: цикл
+// function printNumbers(n) {
+//     for (let  i = 0; i <= n; i++) {
+//         console.log(i);
+//     }
+// }
+// printNumbers(10);
+
+// задача 35: объекты
+// const book = {
+//     title: 'Война и мир',
+//     author: 'Лев Толстой',
+//     year: 1869
+// };
+
+// function getBookInfo() {
+//     return `Название: ${book.title}, Автор: ${book.author}, Год: ${book.year}`;
+// }
+// console.log(getBookInfo([]))
+
+// задача 36: напиши функцию, которая возвращает первый элемент массива. Если массив пусть - вернуть null
+// function getFirstElement(arr) {
+//     return arr[0];
+// }
+// console.log(getFirstElement([10, 20, 30]))
+
+// задача 36: напишите функцию, которая возварщает сумму только положительных чисел из массива.
+// function getPositiveSum(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] >= 0) {
+//             sum += arr[i];
+
+//         }
+//     }
+//     return sum;
+// }
+// console.log(getPositiveSum([-3, -4, -5]))
+
+// задача 37: объекты + массивы
+// const students = [
+//     {name: 'Аня', grade: 4},
+//     {name: 'Борис', grade: 5},
+//     {name: 'Вика', grade: 3},
+//     {name: 'Глеб', grade: 5}
+// ];
+
+// function getTopStudetnts() {
+//     let result = [];
+//     for (let key in students) {
+//         if (students[key].grade === 5) {
+//             result.push(students[key].name);
+//         }
+//     }
+//     return result;
+// }
+// console.log(getTopStudetnts());
+
+// задача 38: напишите функцию, которая считает количество глассных букв
+// function countVowels(str) {
+//     let letter = str.toLowerCase();
+//     const vowels = 'аеёиоуыэюя';
+//     let counter = 0;
+//     for (let i = 0; i < letter.length; i++) {
+//         let currentLetter = letter[i];
+//        if (vowels.includes(currentLetter)) {
+//             counter++;
+//         }
+//     }
+//     return counter;
+// }
+// console.log(countVowels(('Привет')));
