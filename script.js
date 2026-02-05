@@ -519,3 +519,68 @@
 //     return counter;
 // }
 // console.log(countVowels(('Привет')));
+
+// задача 39: напишиет функцию, которая возварщает ture, если число четное, и false - есле нечетное
+// function isEven(num) {
+//     if (num % 2 === 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isEven(5))
+
+// задача 40: напишите функцию, которая возвращает квадрат числа
+// function square(num) {
+//     return num * num;
+// }
+// console.log(square(4))
+
+// задача 41: напишите функцию, которая выводит в консоль n звездачек в одну строчук
+// function printStars(n) {
+//     let sum = "";
+//     for (let i = 0; i <= n; i++) {
+//         sum +="*";
+//     }
+//     return sum;
+// }
+// console.log(printStars(5))
+
+// задача 42: создайте объект car с полями brand и year. напишите функцию, которая возвращает возраст машины.
+// function getCarAge() {
+//     const car = {
+//         brand: 'Toyota',
+//         year: 2020
+//     }
+//     return `${car.year} - год выпуска`;
+// }
+// console.log(getCarAge())
+
+// задача 43: напишите функцию, которая возвращает последний элемент массива. если массив пустой - вернуть null
+// function getLastElement(arr) {
+//     const last = arr[arr.length - 1];
+//     return last;
+// }
+// console.log(getLastElement([1, 2, 4, 5]))
+
+// задача 44: напишите функцию, которая считает, сколько раз target встречается в массиве arr
+// function countOccurrences(arr, target) {
+//     let counter = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === target) {
+//             counter++;
+//         }
+//     }
+//     return counter;
+// }
+// console.log(countOccurrences([2, 2, 3, 4, 5, 2], 1))
+
+// задача 45: напишите функцию, которая возваращает строку в обратном порядке
+// function reversString(str) {
+//     let result = '';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         result += str[i];
+//     }
+//     return result;
+// }
+// console.log(reversString("hello"));
