@@ -584,3 +584,44 @@
 //     return result;
 // }
 // console.log(reversString("hello"));
+
+// задача 46: функция + условия
+// function getGrade(score) {
+//     if (score >= 90) {
+//         return 'Отлично';
+//     } else if (score >= 70) {
+//         return 'Хорошо';
+//     } else if (score >= 50) {
+//         return 'Удовлетворительно';
+//     } else {
+//         return 'Неудовлетворительно';
+//     }
+// }
+// console.log(getGrade(80))
+
+// задача 47: напишите функцию, которая возварщает новый массив, где каждый элемент исходного массива умножен на 2
+// function doubleArray(arr) {
+//     let double = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         double.push(arr[i] * 2);
+//     }
+//     return double;
+// }
+// console.log(doubleArray([3, 4, 5]));
+
+// задача 48: напишите фукнкцию, котоаря возвращает true, если пользоватлеь может купить товар, и false - если нет.
+// function canBuyProduct(productPrice) {
+//     const user = {
+//         name: 'Анна',
+//         age: 25,
+//         balance: 1500
+//     }
+
+//     if (user.age >= 18 && user.balance >= productPrice) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(canBuyProduct(100))
