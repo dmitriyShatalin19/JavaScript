@@ -625,3 +625,71 @@
 //     }
 // }
 // console.log(canBuyProduct(100))
+
+// задача 49: напишите функцию, котоаря возвращет сумму всех чисел в массиве
+// function sumArray(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     return sum;
+// }
+// console.log(sumArray([1, 3, 4, 5]))
+
+// задача 50: напишите функцию, которая возвращает среднее арифметическое всеч чисел в массиве. Если массив пустой - вернуть 0.
+// function average(arr) {
+//     let sum = 0;
+//     let length = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum+= arr[i];
+//         length++;
+//     }
+//     return sum / length;
+// }
+// console.log(average([10, 20]))
+
+// задача 51: напишите функцию, которая возвращает минимальное число в массиве. Если массив пустьй - вернуть null
+// function findMin(arr) {
+//     let min = 1;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] <= min) {
+//             min = arr[i];
+//         }
+//     }
+//     return min;
+// }
+// console.log(findMin([5, 5, 2, 4, 1, 0]))
+
+// задача 52: напишите функцию, которая возвращает сумму всех чисел в массиве
+// function sumEven(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 === 0) {
+//             sum += arr[i];
+//         }
+//     }
+//     return sum;
+// }
+// console.log(sumEven([3, 4, 5, 6, 8]))
+
+// задача 53: напишите функцию, которая возвращает призведение всех чисел в массиве. Если массив пустой - вернуть 1.
+// function multiplyAll(arr) {
+//     let result = 1;
+//     for (let i = 0; i < arr.length; i++) {
+//         result *= arr[i];
+//     }
+//     return result;
+// }
+// console.log(multiplyAll([2, 3, 4]))
+
+// задача 54: напишите функцию, которая возвращает количество положительных чисел в массиве
+// function countPositive(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > 0) {
+//             sum += arr[i];
+//         }
+//     }
+//     return sum;
+// }
+// console.log(countPositive([3, -1, -4, 3]))
