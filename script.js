@@ -693,3 +693,92 @@
 //     return sum;
 // }
 // console.log(countPositive([3, -1, -4, 3]))
+
+// задача 55: создайте объект dog с полями name и breed. Напиши функцию, которая возвращает строку
+// function describeDog() {
+//     const dog = {
+//         name: "Шарик",
+//         breed: 'Овчарка'
+//     }
+
+//     return `${dog.name} - это ${dog.breed}`
+// }
+// console.log(describeDog())
+
+// задача 56: напиши функцию, которая возвращает длину массива
+// function getLength(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum++;
+//     }
+//     return sum;
+// }
+// console.log(getLength([3, 3, 4]))
+
+// задача 57: функцию + условия
+// function canDrive(age, hasLicense) {
+//     if (age >= 18 && hasLicense === true) {
+//         return 'Можно';
+//     } else if (age >= 18 && hasLicense === flase) {
+//         return 'Нужны прова';
+//     } else if (age < 18 && hasLicense === true) {
+//         return 'Слишком молод';
+//     } else {
+//         return 'Нужны прова';
+//     }
+// }
+// console.log(canDrive(16, true))
+
+// задача 58: напишите функцию, которая возвращает новый массив, содержащий только чисала из исходного массива
+// function filterNumbers(arr) {
+//     let numberArr = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (typeof (arr[i]) === 'number') {
+//             numberArr.push(arr[i]);
+//         }    
+//     }
+//     return numberArr;
+// }
+// console.log(filterNumbers([3, 2, 'a', 3]))
+
+// задача 59: напишите функцию, которая возвращает массив названий всех книг
+// function getBookTitles() {
+//     const books = [
+//         {title: 'Война и мир', author: 'Толстой', year: 1869},
+//         {title: 'Преступление и наказине', author: 'Достоевский', year: 1866},
+//         {title: 'Мастер и Маргарита', author: 'Блугаков', year: 1967}
+//     ];
+//     let booksArr = [];
+
+//     for (let key of books) {
+//         booksArr.push(key.title)
+//     }
+//     return booksArr;
+// }
+// console.log(getBookTitles([]))
+
+// задача 60: напишите функцию, которая считает, сколько раз символ char встречается в строке str
+// function countChar(str, char) {
+//     let result = str.split('');
+//     let sum = 0;
+
+//     for (let i = 0; i < result.length; i++) {
+//         if (result[i] === char) {
+//             sum++;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(countChar('banana', 'b'))
+
+// задача 61: напишите функцию, которая возвращает true, если в массиве есть повторяющиеся элементы, и false - если все элементы уникальны
+// function hasDuplicates(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if(arr.indexOf() !== arr.lastIndexOf()) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+// console.log(hasDuplicates([2, 3, 2, 4, 2]))
