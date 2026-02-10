@@ -782,3 +782,106 @@
 //     return false;
 // }
 // console.log(hasDuplicates([2, 3, 2, 4, 2]))
+
+// задача 62: напишите функцию, которая возвращает приветствие
+// function greeting(name) {
+//     if (name === null || name === '')  {
+//         return 'Привет, Гость!';
+//     } else {
+//         return `Привет, ${name}`;
+//     };
+// }
+// console.log(greeting(''))
+
+// задача 63: напишите функцию, которая возвращает макс. число в массиве
+// function findMax(arr) {
+//     let max = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+// console.log(findMax([]))
+
+// задача 64: напишите функцию, котоаря возвращает имя студента с наивысшим баллом
+// function getTopStudent() {
+//     const students = [
+//         {name: 'Аня', score: 85},
+//         {name: 'Борис', score: 92},
+//         {name: 'Вика', score: 100}
+//     ];
+//     let more = 0;
+
+//     for (let i = 0; i < students.length; i++) {
+//         if (students[i].score > more) {
+//             more = students[i].score;
+//         }
+//     }
+//     return more;
+// }
+// console.log(getTopStudent())
+
+// задача 65: напишите функцию, которая возвращает общую стоимость всех товаров
+// function calculateTotal() {
+//     const product = [
+//         {name: 'Яблоко', price: 50, quantity: 3},
+//         {name: 'Банан', price: 30, quantity: 5},
+//         {name: 'Апельсин', price: 40, quantity: 2}
+//     ]
+//     let sum = 0;
+//     let multiplication = 0;
+
+//     for (let i = 0; i < product.length; i++) {
+//         multiplication = product[i].price * product[i].quantity;
+//         sum += multiplication;
+//     }
+//     return sum;
+// }
+// console.log(calculateTotal())
+
+// задача 66: напишите функцию, которая проверяет, является ли строка пладромом. Регистор ну учитывать, пробелы игнорировать
+// function isPalindrome(str) {
+//     let j = str.length - 1;
+
+//     for (let i = 0; i < str.length / 2; i++) {
+//         if (str[i] !== str[j]) {
+//             return false;
+//         }
+//         j--;
+//     }
+//     return true;
+// }
+// console.log(isPalindrome('тут'))
+
+// задача 67: напишите функцию, которая выводит в консоль все свойства объекта в формате "ключь: значение"
+// function printObject() {
+//     const person = {
+//         name: 'Даша',
+//         age: 23,
+//         city: 'Москва'
+//     }
+//     for (let key in person) {
+//         console.log(`${key}: ${person[key]}`);
+//     }
+// }
+// printObject();
+
+// задача 68: напишите функцию, которая возваращает сумму только числовых значений в объекте
+// function sumNumbericValues() {
+//     const data = {
+//         a: 10,
+//         b: 20,
+//         c: 'v'
+//     };
+//     let sum = 0;
+
+//     for (let key in data) {
+//         if (typeof(data[key]) === 'number') {
+//             sum += data[key];
+//         }
+//     }
+//     return sum;
+// }
+// console.log(sumNumbericValues());
