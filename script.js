@@ -885,3 +885,61 @@
 //     return sum;
 // }
 // console.log(sumNumbericValues());
+
+// задача 69: напишите функцию, которая проверяет надежность пароля
+// function checkPassword(password) {
+//     if (password === '' || !password) {
+//         return 'пустой';
+//     }
+
+//     let cahr = 0;
+//     let digitCount = 0;
+//     for (let i = 0; i < password.length; i++) {
+//         char = password[i];
+
+//         if ((!isNaN(parseInt(cahr)))) {
+//             digitCount++;
+//         }
+//     }
+
+//     if (password.length >= 8  && digitCount >= 1) {
+//         return 'сильный';
+//     } else {
+//         return 'слабый';
+//     }
+
+// }
+// console.log(checkPassword("57561asd"))
+
+// задача 70: напишите функцию, которая возвращает общую сумму всех завершенных заказов
+// function getCompletedTotal() {
+//     const orders = [
+//         {id: 1, amount: 100, status: 'completed'},
+//         {id: 2, amount: 50, status: 'completed'},
+//         {id: 3, amount: 200, status: 'pending'},
+//         {id: 4, amount: 75, status: 'completed'}
+//     ];
+
+//     let sum = 0;
+//     for (let i = 0; i < orders.length; i++) {
+//         if (orders[i].status === 'completed') {
+//             sum += orders[i].amount;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(getCompletedTotal())
+
+// задача 71: напишите функцию, которая считает количество цифр в строке
+// function countDigit(str) {
+//     let char = 0;
+//     let sum = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         char = str[i];
+//         if (!isNaN(parseInt(char))) {
+//             sum++;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(countDigit('adsf123'))
