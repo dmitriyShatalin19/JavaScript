@@ -943,3 +943,78 @@
 //     return sum;
 // }
 // console.log(countDigit('adsf123'))
+
+// задача 72: функция + условия
+// function categorizeAge(age) {
+//     if (age < 13) {
+//         return 'Ребенок';
+//     } else if (age >= 13 && age <= 17) {
+//         return 'Подросток';
+//     } else if (age >= 18 && age <= 59) {
+//         return 'Взрослый';
+//     } else if (age >= 60) {
+//         return 'Пенсионер';
+//     } else if (age < 0) {
+//         return 'Некорректный возраст';
+//     }
+// }
+// console.log(categorizeAge(70))
+
+// задача 73: напишите функцию, которая возвращает новый массив, содержащий только положительные числа из исходного
+// function filterPositive(arr) {
+//     let newArr = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         let thisN = arr[i];
+
+//         if (thisN >= 0) {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+// console.log(filterPositive([1, 2, -4, 3]))
+
+// задача 74: напишите функцию, которая возвращает общую зарплату всех сотрудников указанного отдела
+// function getTotalSalary(j) {
+//     const employees = [
+//         {name: 'Аня', department: 'продажи', salary: 50000},
+//         {name: 'Борис', department: 'разработка', salary: 80000},
+//         {name: 'Вика', department: 'продажи', salary: 45000},
+//         {name: 'Глеб', department: 'разрботка', salary: 90000}
+//     ];
+
+//     let sum = 0;
+//     for (let i = 0; i < employees.length; i++) {
+//         if (employees[i].department === j) {
+//             sum += employees[i].salary;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(getTotalSalary(('продажи')))
+
+// задача 75: напишите функцию, которая возвращает строку в обратном порядке
+// function reverseString(str) {
+//     let newArr = '';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         if (i >= 0) {
+//             newArr += str[i]; 
+//         }
+//     }
+//     return newArr;
+// }
+// console.log(reverseString('hello'))
+
+// задача 76: напишите функцию, которая возвращает максимальное число в массиве
+// function findMax(arr) {
+//     let max = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+// console.log(findMax([3, 2, 5, 2, 1, 7, 3, 9]))
+
