@@ -1018,3 +1018,16 @@
 // }
 // console.log(findMax([3, 2, 5, 2, 1, 7, 3, 9]))
 
+
+// задача 77: напишите функцию, которая возвращает новый массив без повторяющихся элементов
+// function removeDuplicates(arr) {
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+
+//         if (newArr.indexOf(arr[i]) === -1) {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+// console.log(removeDuplicates([3, 4, 2, 4, 1]))
