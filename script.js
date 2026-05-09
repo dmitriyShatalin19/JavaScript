@@ -47,3 +47,27 @@
 //     }
 // }
 // printNumbersFromTo(1,4)
+
+// задача 6.
+// function traingle(height) {
+//     for (let i = 1; i <= height; i++) {
+//         let line = "";
+//            for (let j = 1; j <= i; j++) {
+//             line = line + "* ";
+//            }
+//         console.log(line);
+//     }
+// }
+// traingle(3)
+
+// задача 7.
+// function countDigits(n) {
+//     if (n === 0) return 1;
+//     let counter = 0;
+//     while (n > 0) {
+//         n = ((n - (n % 10)) / 10);
+//         counter++;
+//     }
+//     return counter;
+// }
+// console.log(countDigits(12345))
