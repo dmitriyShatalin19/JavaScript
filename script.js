@@ -1,37 +1,49 @@
-// задание 1.
-// function countToN(n) {
+// задача 1.
+// function countEvenUpTo(n) {
 //     for (let i = 1; i <= n; i++) {
-//         console.log(i);
+//         if (i % 2 === 0) {
+//             console.log(i);
+//         }
 //     }
 // }
-// console.log(countToN(5))
+// countEvenUpTo(10);
 
-// задача 2. 
-// function countdown(start) {
-//     while (start > 0) {
-//         start--;
-//         console.log(start);
-//     }
-//     return 'поехали!';
-// }
-// console.log(countdown(5))
-
-// задача 3.
-// function sumFromToB(a, b) {
-//     let sum = 0;
-//     for (let i = a; i <= b; i++) {
-//         sum+=i;
-//     }
-//     return sum;
-// }
-// console.log(sumFromToB(1, 5));
-
-// задача 4.
-// function findFirstDivsible(x, y) {
+// задача 2.
+// function findDivisible(x, y) {
 //     let number = 1;
-//     while (number % x !== 0 || number % y !== 0) {
+//     while(number % x !== 0 || number % y !== 0 ) {
 //         number++;
 //     }
 //     return number;
 // }
-// console.log(findFirstDivsible(2, 3))
+// console.log(findDivisible(3, 4))
+
+// задача 3.
+// function sumFromeOneTo(n) {
+//     let sum = 0;
+//     for (let i = 0; i <= n; i++) {
+//         sum+=i;
+//     }
+//     return sum;
+// }
+// console.log(sumFromeOneTo(10))
+
+// задача 4.
+// function canEnter(age, hasTicket, isWithAdult) {
+//     if (age >= 18 && hasTicket === true) {
+//         return true;
+//     } else if (age < 18 && hasTicket === true && isWithAdult === true) {
+//         return true;
+//     }
+//     return false;
+// }
+// console.log(canEnter(18, false, true))
+
+// задача 5.
+// function printNumbersFromTo(a, b) {
+//     while (a <= b) {
+//         console.log(a)
+//         a++;
+//     }
+// }
+// printNumbersFromTo(1,4)
