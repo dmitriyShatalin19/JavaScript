@@ -1,73 +1,96 @@
+// решение простейших задача на тему условий и циклов
 // задача 1.
-// function countEvenUpTo(n) {
-//     for (let i = 1; i <= n; i++) {
-//         if (i % 2 === 0) {
-//             console.log(i);
-//         }
-//     }
+// const age = 18;
+// if (age >= 18) {
+//     console.log('Доступ разрешен');
+// } else {
+//     console.log('Доступ запрещен')
 // }
-// countEvenUpTo(10);
 
 // задача 2.
-// function findDivisible(x, y) {
-//     let number = 1;
-//     while(number % x !== 0 || number % y !== 0 ) {
-//         number++;
-//     }
-//     return number;
+// const num = 44;
+// if (num > 0) {
+//     console.log("Положительное");
+// } else if (num < 0) {
+//     console.log('Отрицательное');
+// } else {
+//     console.log('Ноль')
 // }
-// console.log(findDivisible(3, 4))
 
 // задача 3.
-// function sumFromeOneTo(n) {
-//     let sum = 0;
-//     for (let i = 0; i <= n; i++) {
-//         sum+=i;
-//     }
-//     return sum;
+// const number = 100;
+// if (number % 2 === 0) {
+//     console.log('четное');
+// } else {
+//     console.log('нечетное')
 // }
-// console.log(sumFromeOneTo(10))
 
 // задача 4.
-// function canEnter(age, hasTicket, isWithAdult) {
-//     if (age >= 18 && hasTicket === true) {
-//         return true;
-//     } else if (age < 18 && hasTicket === true && isWithAdult === true) {
-//         return true;
-//     }
-//     return false;
+// const age = 66;
+// if (age < 14) {
+//     console.log('Доступ запрещен');
+// } else if (age >= 14 && age <= 17) {
+//     console.log("Доступ с разрешения родителей");
+// } else {
+//     console.log("Доступ разрешен")
 // }
-// console.log(canEnter(18, false, true))
 
 // задача 5.
-// function printNumbersFromTo(a, b) {
-//     while (a <= b) {
-//         console.log(a)
-//         a++;
-//     }
+// const day = 33;
+// switch (day) {
+//     case 1:
+//         console.log('Понедельник');
+//     break;
+//     case 2:
+//         console.log('Вторник');
+//     break;
+//     case 3:
+//         console.log('Среда');
+//     break;
+//     case 4:
+//         console.log('Четверг');
+//     break;
+//     case 5:
+//         console.log('Пятница');
+//     break;
+//     case 6:
+//         console.log('Суббота');
+//     break;
+//     case 7:
+//         console.log('Воскресенье');
+//     break;
 // }
-// printNumbersFromTo(1,4)
 
 // задача 6.
-// function traingle(height) {
-//     for (let i = 1; i <= height; i++) {
-//         let line = "";
-//            for (let j = 1; j <= i; j++) {
-//             line = line + "* ";
-//            }
-//         console.log(line);
-//     }
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i)
 // }
-// traingle(3)
 
 // задача 7.
-// function countDigits(n) {
-//     if (n === 0) return 1;
-//     let counter = 0;
-//     while (n > 0) {
-//         n = ((n - (n % 10)) / 10);
-//         counter++;
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i)
 //     }
-//     return counter;
 // }
-// console.log(countDigits(12345))
+
+// задача 8.
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     sum += i;
+// }
+// console.log(sum)
+
+// задача 9.
+// let n = 10;
+// while (n >= 1) {
+//     console.log(n)
+//     n--;
+// }
+
+// задача 10.
+// let n = 5;
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//     sum = n * i;
+//     console.log(sum)
+// }
