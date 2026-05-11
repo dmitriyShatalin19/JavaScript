@@ -161,3 +161,42 @@
 //     }
 // }
 // console.log(sum)
+
+// задача 18.
+// let n = 5;
+// let result = 1;
+// for (let i = 1; i <= n; i++) {
+//     result *= i;
+//     console.log(result)
+// }
+
+// задачаа 19.
+// let sum = 0;
+// let num = 456;
+// let digit = 0;
+// while (num > 0) {
+//     digit =  num % 10;
+//     sum += digit;
+//     num = Math.floor(num / 10);
+// }
+// console.log(sum)
+
+// задача 20.
+// let num = 43;
+// let isPrime = true;
+
+// if (num <= 1) {
+//     isPrime = false;
+// } else {
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             isPrime = false;
+//         }
+//     }
+// }
+// if (isPrime === true) {
+//     console.log('Простое число');
+// } else {
+//     console.log('Не простое число')
+// }
+
