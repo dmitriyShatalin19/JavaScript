@@ -200,3 +200,42 @@
 //     console.log('Не простое число')
 // }
 
+// задача 21.
+// let num = String(12121);
+// console.log(num.length)
+
+// заадча 22.
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 5 === 0) {
+//         sum+=i;
+//     }
+// }
+// console.log(sum)
+
+// задача 23.
+// let pin = "124";
+// if (pin === "1234") {
+//     console.log('Доступ разрешен');
+// } else {
+//     console.log('Неверный PIN')
+// }
+
+// задача 24.
+// let num = String(4321);
+// let NewNum = '';
+// for (let i = num.length -1; i >= 0 ; i--) {
+//     NewNum+=num[i];
+// }
+// console.log(NewNum)
+
+// задача 25.
+// let start = 15;
+// let end = 40;
+// let sum = 0;
+// for (let i = start; i <= end; i++) {
+//     if (i % 3 === 0 && i % 5 !== 0) {
+//         sum +=i;
+//     }
+// }
+// console.log(sum)
