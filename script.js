@@ -239,3 +239,96 @@
 //     }
 // }
 // console.log(sum)
+
+// задача 26.
+// function sumRange(start, end) {
+//     let sum = 0;
+//     for (let i = start; i <= end; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+// console.log(sumRange(1, 5))
+
+// задача 27.
+// function isDivisible(num, divisor) {
+//     if (num % divisor === 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isDivisible(10, 3))
+
+// задача 28.
+// function reverseNumber(num) {
+//     let newNum = "";
+//     for (let i = num.length - 1; i >= 0; i--) {
+//         newNum += num[i];
+//     }
+//     return newNum;
+// }
+// console.log(reverseNumber(String(321)))
+
+// задача 29.
+// function countEven(start, end) {
+//     let sum = 0;
+    
+//     for (let i = start; i <= end; i++) {
+//         if (i % 2 === 0) {
+//             sum++;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(countEven(1, 10))
+
+// задача 30.
+// function sumDigits(num) {
+//     let sum = 0;
+//     for (let i = 0; i < num.length; i++) {
+//         sum = sum + Number(num[i]);
+//     }
+//     return sum;
+// }
+// console.log(sumDigits(String(123)))
+
+// задача 31.
+// function ifPrime(num) {
+//     for(let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// console.log(ifPrime(3))
+
+// задача 32.
+// function getMax(a, b) {
+//     if (a > b) {
+//         return a;
+//     } else if (b > a) {
+//         return b;
+//     }
+// }
+// console.log(getMax(3, 5))
+
+// задача 33.
+// function sumEven(start, end) {
+//     let sum = 0;
+
+//     for (let i = start; i <= end; i++) {
+//         if (i % 2 === 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(sumEven(1, 10))
+
+// задача 34.
+// function countDigits(num) {
+//     console.log(num.length);
+// }
+// countDigits('12345')
