@@ -332,3 +332,63 @@
 //     console.log(num.length);
 // }
 // countDigits('12345')
+
+// задача 35.
+// let sum = 0;
+// let numbers = [3, 4, 5, 6];
+// for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
+// }
+// console.log(sum)
+
+// задача 36.
+// let sum = 0;
+// let numbers = [12, 5, 8, 21, 30, 7];
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 === 0) {
+//         sum++;
+//     }
+// }
+// console.log(sum);
+
+// задача 37.
+// let big = 0;
+// let numbers = [2, 4, 6, 7, 12, 3, 34];
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] >= big) {
+//         big = numbers[i];
+//     }
+// }
+// console.log(big)
+
+// задача 38.
+// let numbers = [12, 34, 2, 33, 3];
+// let min = numbers[0];
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] < min) {
+//         min = numbers[i];
+//     }
+// }
+// console.log(min)
+
+// задача 39.
+// let numbers = [4, 15, 8, 23, 10, 42];
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > 10) {
+//         sum += numbers[i];
+//     }
+// }
+// console.log(sum)
+
+// задача 40.
+// let numbers = [3, 8, 11, 14, 7, 20];
+// let newNumbers = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 === 0) {
+//         newNumbers.push(numbers[i])
+//     }
+// }
+// console.log(newNumbers)
